@@ -1,7 +1,22 @@
-/*
-    home.css: This website contains selectors only used in home.css
+body{
+    background-image: url(https://i.pinimg.com/originals/f7/54/cc/f754cc850d1b0eb55caec0fcd56bf4fd.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
 
-    All pages share the styles on index.css but you should create 
-    one more css for each page that will contain the selected used 
-    on that page only (the ones not reused in other pages).
-*/
+.container {
+    display: flex;
+    justify-content: flex-end; /* Alinea los formularios a la derecha */
+    align-items: center;
+}
+
+.form-container {
+    width: 300px; 
+    padding: 20px;
+}
+
+h1{
+    font-size: xx-large;
+    color: white;
+}
